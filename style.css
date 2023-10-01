@@ -1,0 +1,18 @@
+.holder {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  margin: 10px; padding: 10px;
+  background: #ccc;
+  padding-bottom: 20px;
+  flex: 1;
+  flex-shrink: 0;
+}
+
+.ordinal {
+  display: absolute;
+  color: #c00;
+  font-weight: bold;
+}
